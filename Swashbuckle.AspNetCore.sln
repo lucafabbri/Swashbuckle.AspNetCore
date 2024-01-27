@@ -32,7 +32,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{65B4042A-F6DC-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.AspNetCore.ReDoc", "src\Swashbuckle.AspNetCore.ReDoc\Swashbuckle.AspNetCore.ReDoc.csproj", "{B5E94C7D-B76E-4181-87E5-ACD8971A987E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.AspNetCore.Cli", "src\Swashbuckle.AspNetCore.Cli\Swashbuckle.AspNetCore.Cli.csproj", "{3164424E-D74A-45CD-BE17-BE33ED79C090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Higrow.AspNetCore.Cli", "src\Higrow.AspNetCore.Cli\Higrow.AspNetCore.Cli.csproj", "{3164424E-D74A-45CD-BE17-BE33ED79C090}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.AspNetCore.Annotations", "src\Swashbuckle.AspNetCore.Annotations\Swashbuckle.AspNetCore.Annotations.csproj", "{3A64AC4B-E68A-4FAF-AA47-2C41DF090DEF}"
 EndProject

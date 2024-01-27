@@ -7,7 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\WebSites\Basic\Basic.csproj" />
     <ProjectReference Include="..\WebSites\MinimalApp\MinimalApp.csproj" />
-    <ProjectReference Include="..\..\src\Swashbuckle.AspNetCore.Cli\Swashbuckle.AspNetCore.Cli.csproj" />
+    <ProjectReference Include="..\..\src\Higrow.AspNetCore.Cli\Higrow.AspNetCore.Cli.csproj" />
   </ItemGroup>
 
   <ItemGroup>
