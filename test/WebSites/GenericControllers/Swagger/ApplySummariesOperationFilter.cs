@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.SwaggerGen;
+using Higrow.AspNetCore.SwaggerGen;
 
 namespace GenericControllers.Swagger
 {

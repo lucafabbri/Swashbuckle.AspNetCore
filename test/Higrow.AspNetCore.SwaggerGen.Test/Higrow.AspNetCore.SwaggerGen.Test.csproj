@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <DocumentationFile>Higrow.AspNetCore.SwaggerGen.Test.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <RootNamespace>Higrow.AspNetCore.SwaggerGen.Test</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Higrow.AspNetCore.Swagger\Higrow.AspNetCore.Swagger.csproj" />
+    <ProjectReference Include="..\..\src\Higrow.AspNetCore.SwaggerGen\Higrow.AspNetCore.SwaggerGen.csproj" />
+    <ProjectReference Include="..\Higrow.AspNetCore.TestSupport\Higrow.AspNetCore.TestSupport.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>

@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Swashbuckle.AspNetCore.ReDoc;
-using Swashbuckle.AspNetCore.Swagger;
-using Swashbuckle.AspNetCore.SwaggerGen;
-using Swashbuckle.AspNetCore.SwaggerUI;
+using Higrow.AspNetCore.ReDoc;
+using Higrow.AspNetCore.Swagger;
+using Higrow.AspNetCore.SwaggerGen;
+using Higrow.AspNetCore.SwaggerUI;
 
 namespace ConfigFromFile
 {

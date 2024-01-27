@@ -6,10 +6,10 @@
 		<IsPackable>true</IsPackable>
 		<LicenseUrl>https://licenses.nuget.org/MIT</LicenseUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/domaindrivendev/Swashbuckle.AspNetCore</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/domaindrivendev/Higrow.AspNetCore</PackageProjectUrl>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<RepositoryUrl>https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git</RepositoryUrl>
+		<RepositoryUrl>https://github.com/domaindrivendev/Higrow.AspNetCore.git</RepositoryUrl>
 		<VersionPrefix>6.5.0</VersionPrefix>
 		<LangVersion>9</LangVersion>
 	</PropertyGroup>
