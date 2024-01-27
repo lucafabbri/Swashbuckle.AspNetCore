@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TestFirst\TestFirst.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.ApiTesting.Xunit\Higrow.AspNetCore.ApiTesting.Xunit.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.ApiTesting.Xunit\Swashbuckle.AspNetCore.ApiTesting.Xunit.csproj" />
   </ItemGroup>
 </Project>

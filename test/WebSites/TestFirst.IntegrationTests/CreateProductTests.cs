@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
-using Higrow.AspNetCore.ApiTesting.Xunit;
+using Swashbuckle.AspNetCore.ApiTesting.Xunit;
 using Xunit;
 
 namespace TestFirst.IntegrationTests

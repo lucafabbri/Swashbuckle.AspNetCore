@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
-using Higrow.AspNetCore.SwaggerGen;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace MultipleVersions
 {

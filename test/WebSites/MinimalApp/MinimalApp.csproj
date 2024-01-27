@@ -1,17 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <DotNetSwaggerPath>$([System.IO.Path]::Combine("..", "..", "..", "src", "Higrow.AspNetCore.Cli", "bin", $(Configuration), $(TargetFramework), "dotnet-swagger"))</DotNetSwaggerPath>
+    <DotNetSwaggerPath>$([System.IO.Path]::Combine("..", "..", "..", "src", "Swashbuckle.AspNetCore.Cli", "bin", $(Configuration), $(TargetFramework), "dotnet-swagger"))</DotNetSwaggerPath>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.SwaggerGen\Higrow.AspNetCore.SwaggerGen.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.SwaggerUI\Higrow.AspNetCore.SwaggerUI.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.Swagger\Higrow.AspNetCore.Swagger.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.Cli\Higrow.AspNetCore.Cli.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.SwaggerGen\Swashbuckle.AspNetCore.SwaggerGen.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.SwaggerUI\Swashbuckle.AspNetCore.SwaggerUI.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.Swagger\Swashbuckle.AspNetCore.Swagger.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.Cli\Swashbuckle.AspNetCore.Cli.csproj" />
   </ItemGroup>
 
 </Project>

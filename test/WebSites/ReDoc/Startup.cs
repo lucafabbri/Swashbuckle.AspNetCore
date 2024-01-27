@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Higrow.AspNetCore.ReDoc;
+using Swashbuckle.AspNetCore.ReDoc;
 
 namespace ReDoc
 {

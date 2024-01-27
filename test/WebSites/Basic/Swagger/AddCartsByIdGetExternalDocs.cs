@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.OpenApi.Models;
-using Higrow.AspNetCore.SwaggerGen;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace Basic.Swagger
 {

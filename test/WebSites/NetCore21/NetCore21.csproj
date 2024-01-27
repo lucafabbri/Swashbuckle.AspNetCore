@@ -10,9 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.Swagger\Higrow.AspNetCore.Swagger.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.SwaggerGen\Higrow.AspNetCore.SwaggerGen.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.SwaggerUI\Higrow.AspNetCore.SwaggerUI.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.Newtonsoft\Higrow.AspNetCore.Newtonsoft.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.Swagger\Swashbuckle.AspNetCore.Swagger.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.SwaggerGen\Swashbuckle.AspNetCore.SwaggerGen.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.SwaggerUI\Swashbuckle.AspNetCore.SwaggerUI.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.Newtonsoft\Swashbuckle.AspNetCore.Newtonsoft.csproj" />
   </ItemGroup>
 </Project>

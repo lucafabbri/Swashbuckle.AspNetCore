@@ -2,18 +2,18 @@
 
   <PropertyGroup>
     <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
-    <DotNetSwaggerPath>$([System.IO.Path]::Combine("..", "..", "..", "src", "Higrow.AspNetCore.Cli", "bin", $(Configuration), $(TargetFramework), "dotnet-swagger.dll"))</DotNetSwaggerPath>
+    <DotNetSwaggerPath>$([System.IO.Path]::Combine("..", "..", "..", "src", "Swashbuckle.AspNetCore.Cli", "bin", $(Configuration), $(TargetFramework), "dotnet-swagger.dll"))</DotNetSwaggerPath>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.SwaggerGen\Higrow.AspNetCore.SwaggerGen.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.SwaggerUI\Higrow.AspNetCore.SwaggerUI.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.Swagger\Higrow.AspNetCore.Swagger.csproj" />
-    <ProjectReference Include="..\..\..\src\Higrow.AspNetCore.Cli\Higrow.AspNetCore.Cli.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.SwaggerGen\Swashbuckle.AspNetCore.SwaggerGen.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.SwaggerUI\Swashbuckle.AspNetCore.SwaggerUI.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.Swagger\Swashbuckle.AspNetCore.Swagger.csproj" />
+    <ProjectReference Include="..\..\..\src\Swashbuckle.AspNetCore.Cli\Swashbuckle.AspNetCore.Cli.csproj" />
   </ItemGroup>
 
   <!--
-    NOTE: In practice, you would install the CLI as a .NET Core Global Tool (i.e. dotnet tool install Higrow.AspNetCore.Cli)
+    NOTE: In practice, you would install the CLI as a .NET Core Global Tool (i.e. dotnet tool install Swashbuckle.AspNetCore.Cli)
     and incorporate it into your build process using the commented out target below
   -->
 
@@ -24,7 +24,7 @@
   -->
 
   <!--
-    HOWEVER ... This example invokes the CLI DLL directly so that its source code can be tested during the Higrow build process
+    HOWEVER ... This example invokes the CLI DLL directly so that its source code can be tested during the Swashbuckle build process
   -->
 
   <Target Name="SwaggerToFile" AfterTargets="AfterBuild">
